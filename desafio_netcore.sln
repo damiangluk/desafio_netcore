@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "desafio_netcore", "desafio_netcore.csproj", "{1A1376F5-ED34-47C2-A8C3-BE59E85369CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desafio_netcore", "desafio_netcore\desafio_netcore.csproj", "{BCBC2BEE-DC5D-463C-8B83-32267FBC4337}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1A1376F5-ED34-47C2-A8C3-BE59E85369CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1A1376F5-ED34-47C2-A8C3-BE59E85369CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1A1376F5-ED34-47C2-A8C3-BE59E85369CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1A1376F5-ED34-47C2-A8C3-BE59E85369CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCBC2BEE-DC5D-463C-8B83-32267FBC4337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCBC2BEE-DC5D-463C-8B83-32267FBC4337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCBC2BEE-DC5D-463C-8B83-32267FBC4337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCBC2BEE-DC5D-463C-8B83-32267FBC4337}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2C313FF5-9F15-42AA-81ED-C1DBBC7424F1}
+		SolutionGuid = {B3E69807-F3BA-4EA1-A84C-DFA94DD0106D}
 	EndGlobalSection
 EndGlobal
