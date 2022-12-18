@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace desafio_netcore.Models
 {
-    public class User
+    public class User : Identity
     {
         public User(string username, string password, string name, string lastname, string document, int active)
         {
@@ -15,9 +15,6 @@ namespace desafio_netcore.Models
             Active = active;
         }
 
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int ID { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
         public string Name { get; set; }

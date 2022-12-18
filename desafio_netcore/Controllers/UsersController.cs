@@ -7,9 +7,14 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using desafio_netcore;
 using desafio_netcore.Models;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace desafio_netcore.Controllers
 {
+
+    [Authorize]
+    [RolPermissions(Roles.Administrator)]
     public class UsersController : Controller
     {
         private readonly TestCrudContext _context;

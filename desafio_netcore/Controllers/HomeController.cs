@@ -4,9 +4,12 @@ using System.Threading.Tasks;
 using desafio_netcore.Models;
 using System.Diagnostics;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Authorization;
 
 namespace desafio_netcore.Controllers
 {
+    [Authorize]
+    [RolPermissions(Roles.Cliente)]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -21,7 +24,7 @@ namespace desafio_netcore.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult PermissionError()
         {
             return View();
         }
